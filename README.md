@@ -7,4 +7,4 @@ For each account and each month we need the following data:
 3. the first date the email was sent in this month;
 4. the last date the email was sent this month.
 
-Note: sent_date is a field in emails_sent table which represents the number of days it took after the session to send the email. That's why I needed to calculate this field using date_add function.
+Note: sent_date is a field in emails_sent table which represents the number of days it took after the session to send the email. That's why I needed to calculate the date when the email was sent using date_add function.
